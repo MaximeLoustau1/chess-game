@@ -211,9 +211,6 @@ class Piece(ABC):
                 self.possible_moves[i][j] = False
                     
         pygame.display.update()
-    
-    #def white_stalemate(self, from_row, from_col, to_row, to_col):
-                                                                   #go through all white moves, if none return True, else return false
 
 
     def move_piece_on_board(self, from_row, from_col, to_row, to_col):    #move piece image 
@@ -315,8 +312,6 @@ class Piece(ABC):
 
     def is_black(self, piece):
         return piece in ['black_rook', 'black_bishop', 'black_queen', 'black_king', 'black_pawn', 'black_knight']
-
-
 
     def simulate_move_and_check(self, new_r, new_c, piece_row, piece_col, king_r, king_c):
         temp_piece_positions = [row[:] for row in self.piece_positions]

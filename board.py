@@ -1,18 +1,18 @@
 import pygame
 
 piece_images = {
-    'black_pawn': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\black_pawn.png",
-    'black_bishop': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\black_bishop.png",
-    'black_knight': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\black_knight.png",
-    'black_king': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\black_king.png",
-    'black_queen': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\black_queen.png",
-    'black_rook': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\black_rook.png",
-    'white_pawn': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\white_pawn.png",
-    'white_bishop': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\white_bishop.png",
-    'white_knight': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\white_knight.png",
-    'white_king': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\white_king.png",
-    'white_queen': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\white_queen.png",
-    'white_rook': "C:\\Users\\rohan\\Desktop\\Coding Projects\\ChessGame\\white_rook.png"
+    'black_pawn': "./Assets/black_pawn.png",
+    'black_bishop': "./Assets/black_bishop.png",
+    'black_knight': "./Assets/black_knight.png",
+    'black_king': "./Assets/black_king.png",
+    'black_queen': "./Assets/black_queen.png",
+    'black_rook': "./Assets/black_rook.png",
+    'white_pawn': "./Assets/white_pawn.png",
+    'white_bishop': "./Assets/white_bishop.png",
+    'white_knight': "./Assets/white_knight.png",
+    'white_king': "./Assets/white_king.png",
+    'white_queen': "./Assets/white_queen.png",
+    'white_rook': "./Assets/white_rook.png"
 }
 
 class Board:
@@ -91,8 +91,8 @@ class Board:
             self.place_piece_at_position(6, row, piece_name)
             self.piece_positions[6][row] = piece_name
 
-    def highlight_selected_cell(self, row, col):      #keeps track of what piece is clicked on and if it's clicked for the first time
-        counter = self.count_clicked_cells()          #updates the images on the board to represent current state of board matrix
+    def highlight_selected_cell(self, row, col):      # keeps track of what piece is clicked on and if it's clicked for the first time
+        counter = self.count_clicked_cells()          # updates the images on the board to represent current state of board matrix
 
         if self.selected_piece_position:
             selected_row, selected_col = self.selected_piece_position
