@@ -10,7 +10,8 @@ Traditional chess game with all rules and functionalities implemented with Pytho
 - **Responsive controls:** Move pieces using mouse clicks.
 
 ## Interface:
-<img width="601" alt="Screenshot 2024-10-12 at 16 48 00" src="https://github.com/user-attachments/assets/700775d4-e905-4d41-952f-77c509dfef05">
+<img width="593" alt="Screenshot 2024-10-12 at 16 48 46" src="https://github.com/user-attachments/assets/c1e71394-bf43-482f-a285-4ba0b399f1ef">
+
 
 ## Gameplay Instructions
 - Starting a game: Upon launching, the chessboard will be displayed with pieces in their initial positions.
@@ -24,6 +25,7 @@ Traditional chess game with all rules and functionalities implemented with Pytho
    ```bash
    git clone https://github.com/yourusername/chess-game.git
    cd chess-game
+   ```
   
 2. **Install dependencies: Ensure you have Python 3 installed. Install Pygame using pip:
   ```bash
