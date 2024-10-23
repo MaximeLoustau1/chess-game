@@ -16,7 +16,7 @@ Traditional chess game with all rules and functionalities implemented with Pytho
 ## Gameplay Instructions
 
 - **Starting a game:** Upon launching, the chessboard will be displayed with pieces in their initial positions.
-= **Moving pieces:** Click on a piece to select it, then click on a valid move location to move the piece.
+- **Moving pieces:** Click on a piece to select it, then click on a valid move location to move the piece.
 - **Ending a turn:** After moving a piece, the turn automatically switches to the other player.
 - **Winning the game:** The game ends when one player checkmates the other’s king. A notification will display on the screen.
 
