@@ -32,7 +32,7 @@ Traditional chess game with all rules and functionalities implemented with Pytho
   ```bash
    pip install pygame
   ```
-3. **Run the game: Launch the game by running:**
+3. **Launch the game by running:**
   ```bash 
     python3 main.py
   ```
